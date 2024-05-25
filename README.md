@@ -69,7 +69,7 @@ Once we have that structured, we only need to execute the following command:
 python3 main.py [name_dir]
 
 ```bash
-python3 main.py 20240430 # El nombre de la carpeta que contiene los banners que queremos animar.
+python3 main.py 20240430 # The name of the folder containing the banners we want to animate.
 ```
 
 This will create a folder inside the output directory with the same name as the selected folder. To verify that everything is correct, the folder should contain an index.html file along with the images used in the animation.

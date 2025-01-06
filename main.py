@@ -8,4 +8,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     banner_generator = BannerGenerator(args.workdir)
+    banner_generator.normalize_stack(args.directory)
     banner_generator.generate_banners(args.directory)

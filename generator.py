@@ -32,7 +32,6 @@ class BannerGenerator:
                 new_file_name = re.sub(r"[×X]", "x", file_name)
                 new_file_name = new_file_name.replace("_", "-")
 
-
                 old_file_path = os.path.join(root, file_name)
                 new_file_path = os.path.join(root, new_file_name)
 
